@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    # compilando dependencias
+    commands:
+       - npm install
+artifacts:
+  # cargando resultado a S3
+  name: build-$(date +%Y-%m-%d-%M)
+  files:
+    - '**/*'
