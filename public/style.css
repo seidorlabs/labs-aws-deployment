@@ -84,7 +84,7 @@ a {
 }
 
 .WelcomeView {
-  background: url(https://cdn.seidorlab.com/public/background.png) left bottom;
+  background: url(https://opetech-demo-autoscaling.s3.amazonaws.com/public/background.png) left bottom;
   background-size: cover;
 }
 
